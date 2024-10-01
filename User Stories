@@ -1,0 +1,437 @@
+
+User Story No: 1        Task: 1        Priority: HIGH
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+AS A CUSTOMER, I WANT TO REGISTER MYSELF IN THE CLOTHS SHOPPING APPLICATION SO THAT I CAN GET MY ORDER.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BV: 500	CP: 1 Unit
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Acceptance Criteria:
+
+Basic Flow-
+•	As a customer, I install the Cloths Shopping Application.
+•	Customer opens the Cloths Shopping Application.
+•	Customer registers himself by entering Name, Phone number, Email.
+
+Alternate Flow-
+•	If the entered username is already present in the system, then an error message will pop up   saying that the user already exists.
+•	If any compulsory field is left blank then a error message will pop up saying all compulsory fields must be filled.
+
+Exceptional Flow-
+•	If the user encounters any technical errors while registering into the system.
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+User Story No: 2        Task: 1        Priority: HIGH
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+AS A CLOTHS RETAILER, I WANT TO REGISTER MYSELF IN THE CLOTHS SHOPPING APPLICATION SO THAT I CAN GET MY ORDER.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BV: 500	CP: 1 Unit
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Acceptance Criteria:
+
+Basic Flow-
+•	As a clothes retailer, I install the Cloths Shopping Application.
+•	Clothes retailer opens the Cloths Shopping Application.
+•	Clothes retailer registers himself by entering Name, Phone number, Email.
+
+Alternate Flow-
+•	If the entered username is already present in the system, then an error message will pop up   saying that the user already exists.
+•	If any compulsory field is left blank then a error message will pop up saying all compulsory fields must be filled.
+
+Exceptional Flow-
+•	If the user encounters any technical errors while registering into the system.
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+User Story No: 3        Task: 1        Priority: HIGH
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+AS A CUSTOMER, I WANT TO LOGIN MYSELF IN THE CLOTHS SHOPPING APPLICATION SO THAT I CAN GET MY ORDER.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BV: 500	CP: 1 Unit
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Acceptance Criteria:
+
+Basic Flow-
+•	Customer has registered already.
+•	Now customer logins to the Cloths Shopping Application by entering the email and password.
+•	After login is done successfully, the home page is displayed to the customer.
+
+Alternate Flow-
+•	Entered password is wrong.
+•	Entered email is wrong.
+•	Both are wrong.
+
+Exceptional Flow-
+•	Forgot email.
+•	Forgot password.
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+User Story No: 4        Task: 1        Priority: HIGH
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+AS A CLOTHS RETAILER, I WANT TO LOGIN MYSELF IN THE CLOTHS SHOPPING APPLICATION SO THAT I CAN GET MY ORDER.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BV: 500	CP: 1 Unit
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Acceptance Criteria:
+
+Basic Flow-
+•	Clothes retailer has registered already.
+•	Now Clothes retailer logins to the Cloths Shopping Application by entering the email and password.
+•	After login is done successfully, the home page is displayed to the customer.
+
+Alternate Flow-
+•	Entered password is wrong.
+•	Entered email is wrong.
+•	Both are wrong.
+
+Exceptional Flow-
+•	Forgot email.
+•	Forgot password.
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+User Story No: 5        Task: 1        Priority: HIGH
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+AS A CUSTOMER, I WANT TO SEARCH AND VIEW THE COLTHS IN THE CLOTHES SHOPPING APPLICATION SO THAT I CAN GET MY ORDER.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BV: 500	CP: 1 Unit
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Acceptance Criteria:
+
+Basic Flow-
+•	As a customer, I install the Clothes Shopping Application.
+•	Customer opens the Clothes Shopping Application.
+•	Customer registers himself by entering Name, Phone number, Email.
+•	After registering, customer will login to the Clothes Shopping Application.
+•	After logging in , I will be navigated to the home page which has various brands and various clothes retailers options in my area.
+•	I search for a specific brand.
+
+Alternate Flow-
+•	As a customer, I install the Clothes Shopping Application.
+•	Customer opens the Clothes Shopping Application.
+•	Customer registers himself by entering Name, Phone number, Email.
+•	After registering, customer will login to the Clothes Shopping Application.
+•	After logging in , I will be navigated to the home page which has various brands and various clothes retailers options in my area.
+•	Customer navigates to the search page.
+•	Instead of directly searching the clothes, customer uses advance search filter like price range, type of cloth, etc.
+•	Based on the advance search, the system provides with the list of clothes.
+•	Customer views a specific restaurant.
+•	The system gives details about that clothes.
+•	The system also provides with the rating of the clothes.
+
+Exceptional Flow-
+•	While trying to search the clothes, the customer faces network issue.
+•	The pages are not loading.
+•	While searching, the system displays error message saying that currently there is network issue so searching can’t be done.
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+User Story No: 6        Task: 1        Priority: HIGH
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+AS A CUSTOMER, I WILL SELECT SIZE AND COLOR FROM CLOTHES SHOPPING APPLICATIONSO THAT I CAN GET MY ORDER.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BV: 500	CP: 1 Unit
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Acceptance Criteria:
+
+Basic Flow-
+•	The customer opens the clothes shopping application.
+•	They navigate to the desired product category.
+•	They select a product they want to purchase.
+•	On the product page, they see options to select size and colour.
+•	The customer selects their preferred size from the available options.
+•	They select their desired colour from the available options.
+•	The customer adds the selected product to their cart.
+
+Alternate Flow-
+•	As a customer, I install the Clothes Shopping Application.
+•	Customer opens the Clothes Shopping Application.
+•	Customer registers himself by entering Name, Phone number, Email.
+•	After registering, customer will login to the Clothes Shopping Application.
+•	After logging in , I will be navigated to the home page which has various brands and various clothes retailers options in my area.
+•	Customer navigates to the search page.
+•	Instead of directly searching the clothes, customer uses advance search filter like price range, type of cloth, etc.
+•	Based on the advance search, the system provides with the list of clothes.
+•	Customer views a specific restaurant.
+•	The system gives details about that clothes.
+•	The system also provides with the rating of the clothes.
+
+Exceptional Flow-
+•	If the desired size or colour is not available for the selected product, the system notifies the customer about the unavailability.
+•	The customer can either choose a different size or colour if available or cancel the selection.
+•	If there are technical issues preventing the selection of size and colour, the system displays an error message.
+•	The customer can try again later or contact customer support for assistance.
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+User Story No: 7        Task: 1        Priority: HIGH
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+AS A CUSTOMER, I WANT TO VIEW THE CLOTHES LIST IN THE CLOTHES SHOPPING APPLICATION SO THAT I CAN GET MY ORDER.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BV: 500	CP: 1 Unit
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Acceptance Criteria:
+
+Basic Flow-
+•	The customer opens the clothes shopping application.
+•	They navigate to the section displaying the list of available clothes.
+•	The customer can see a list of clothes with brief descriptions, including name, price, and possibly an image.
+•	They can scroll through the list to view all available options.
+•	The customer can click on a specific item to view more details if needed.
+
+Alternate Flow-NA
+
+Exceptional Flow-
+•	If there are no clothes listed in the application, the system notifies the customer that there are currently no items available for viewing.
+•	If there are technical issues preventing the selection of size and colour, the system displays an error message.
+The customer can try again later or contact customer support for assistance.
+The customer can choose to check back later or explore other sections of the application.
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+User Story No: 8        Task: 1        Priority: HIGH
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+AS A CUSTOMER, I WANT TO BUT THE CLOTHES IN THE CLOTHES SHOPPING APPLICATION SO THAT I CAN GET MY ORDER.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BV: 500	CP: 1 Unit
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Acceptance Criteria:
+
+Basic Flow-
+•	The customer opens the clothes shopping application.
+•	They navigate to the section displaying the list of available clothes.
+•	The customer selects the clothes they wish to purchase.
+•	They proceed to the checkout or cart page.
+•	The customer reviews the selected items, ensuring correctness in size, color, and quantity.
+•	They provide shipping and payment details as required.
+•	The customer confirms the order by clicking on the "Buy Now" or "Place Order" button.
+•	The system processes the order, deducts the payment from the customer's chosen payment method, and sends a confirmation email or notification.
+
+Alternate Flow-
+•	If the customer decides to edit their order, they can go back to the cart page to modify the selection.
+•	The customer repeats steps 5 to 7 after making the necessary changes.
+
+Exceptional Flow-
+•	If there are technical issues during the checkout process, the system displays an error message.
+•	The customer can try again later or use an alternate payment method if available.
+•	If the issue persists, they can contact customer support for assistance.
+•	If the selected item is out of stock during the checkout process, the system notifies the customer about the unavailability.
+•	The customer can remove the out-of-stock item from the cart or choose a replacement if available.
+•	If there are issues with the payment transaction, the system prompts the customer to verify payment details.
+•	The customer can update their payment information or choose another payment method.
+•	If the problem persists, they can contact their bank or payment provider for assistance.
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+User Story No: 9        Task: 1        Priority: HIGH
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+AS A CUSTOMER, I WANT TO MAKE PAYMENT OF THE CLOTHES THAT I BOUGHT IN THE CLOTHES SHOPPING APPLICATION SO THAT I CAN GET MY ORDER.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BV: 500	CP: 1 Unit
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Acceptance Criteria:
+
+Basic Flow-
+•	The customer opens the clothes shopping application.
+•	After selecting the desired clothes and proceeding to checkout, they reach the payment section.
+•	The customer selects their preferred payment method from the available options (e.g., credit/debit card, PayPal, etc.).
+•	They provide the necessary payment details, such as card number, expiration date, CVV, and billing address.
+•	The customer verifies the payment information for accuracy.
+•	They confirm the payment by clicking on the "Pay Now" or "Complete Purchase" button.
+•	The system processes the payment securely and displays a confirmation message.
+
+Alternate Flow-
+•	If the customer encounters issues with their chosen payment method,
+•	They can select an alternative payment method if available.
+•	The customer repeats steps 3 to 6 with the new payment method.
+
+Exceptional Flow-
+•	If there are technical issues during the checkout process, the system displays an error message.
+•	The customer can try again later or use an alternate payment method if available.
+•	If the issue persists, they can contact customer support for assistance.
+•	If the selected item is out of stock during the checkout process, the system notifies the customer about the unavailability.
+•	The system notifies the customer about the declined payment.
+•	The customer can double-check the payment details and try again.
+•	If the problem persists, they can contact their bank or payment provider for assistance.
+•	If the payment gateway is temporarily unavailable, T If the problem persists, they can contact customer support for assistance.
+•	The system displays a message indicating the issue.
+•	The customer can try again later or use an alternate payment method if available.
+•	If the problem persists, they can contact customer support for assistance.
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+User Story No: 10        Task: 1        Priority: HIGH
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+AS A CUSTOMER, I WANT TO EXCHANGE THE CLOTHES THAT I BOUGHT IN THE CLOTHES SHOPPING APPLICATION.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BV: 500	CP: 1 Unit
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Acceptance Criteria:
+
+Basic Flow-
+•	The customer opens the clothes shopping application.
+•	They navigate to the section or page dedicated to order management or returns/exchanges.
+•	The customer selects the specific order containing the clothes they wish to exchange.
+•	They choose the option for exchanging items within the order details.
+•	The customer specifies the item(s) they want to exchange and the reason for 
+•	exchange (e.g., wrong size, color, or defects).
+•	They confirm the exchange request.
+•	Alternate Flow-
+•	If the customer wants to exchange the item for a different size or color, they specify the desired size or color during the exchange process.
+•	The system updates the exchange request accordingly.
+
+Exceptional Flow-
+•	If the exchange is requested outside the allowed timeframe or under specific conditions, the system notifies the customer about the issue.
+•	The customer may be required to contact customer support for further assistance.
+•	If the item is not eligible for exchange (e.g., final sale items, personalized items),
+•	the system informs the customer about the item's non-exchangeable status.
+•	The customer can choose to keep the item or proceed with a return if applicable.
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+User Story No: 11        Task: 1        Priority: HIGH
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+AS A CUSTOMER, I WANT TO RETURN THE CLOTHES THAT I BOUGHT IN THE CLOTHES SHOPPING APPLICATION.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BV: 500	CP: 1 Unit
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Acceptance Criteria:
+
+Basic Flow-
+•	The customer opens the clothes shopping application.
+•	They navigate to the section or page dedicated to order management or returns.
+•	The customer selects the specific order containing the clothes they wish to return.
+•	They choose the option for returning items within the order details.
+•	The customer specifies the item(s) they want to return and the reason for the return (e.g., wrong size, colour, or defects).
+•	They confirm the return request.
+
+Alternate Flow-
+•	If the customer wants to return the item for a refund, they specify the reason for the return as "Refund Request".
+•	The system processes the return accordingly, initiating a refund to the original payment method.
+
+Exceptional Flow-
+•	If the return is requested outside the allowed timeframe or under specific conditions, the system notifies the customer about the issue.
+•	The customer may be required to contact customer support for further assistance.
+•	If the item is not eligible for return (e.g., final sale items, personalized items), the system informs the customer about the item's non-returnable status.
+•	he customer can choose to keep the item or proceed with a different resolution if applicable.
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+User Story No: 12        Task: 1        Priority: HIGH
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+AS A CLOTHES RETAILER, I WANT TO MANAGE MY PRODUCT INVENTORY SO THAT I CAN ENSURE ACCURATE STOCK LEVELS AND AVAILABILITY FOR CUSTOMERS.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BV: 500	CP: 1 Unit
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Acceptance Criteria:
+
+Basic Flow-
+•	As a clothes retailer, I log in to the inventory management system.
+•	I navigate to the "Product Inventory" section.
+•	I can see a list of all products currently in stock, including details such as product name, description, available sizes, colours, and quantities.
+•	I have the option to add new products to the inventory by entering relevant details such as name, description, price, sizes, colours, and initial quantity.
+•	I can update existing product information, including price adjustments, size availability, colour options, and stock quantities.
+•	I can remove discontinued or out-of-stock products from the inventory.
+•	I can view reports and analytics on product inventory status, including total stock count, sold items, and forecasted demand.
+
+Alternate Flow-
+•	If I need to add a large number of products to the inventory, I have the option to upload a CSV file containing product information in bulk.
+•	The system parses the CSV file and adds the products to the inventory accordingly.
+
+Exceptional Flow-
+•	If there are technical issues accessing or updating the inventory, the system displays an error message.
+•	I can retry the operation or contact technical support for assistance.
+•	If there is a discrepancy between physical stock levels and inventory records, I can conduct a manual stock count to reconcile the discrepancy.
+•	I can adjust stock levels in the system to reflect the actual inventory on hand.
+•	If a product is temporarily out of stock but expected to be replenished soon, I can set up a backorder option for customers to place orders for the out-of-stock item.
+•	The system notifies me when new stock arrives so I can update inventory levels and fulfill backorders.
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+User Story No: 13        Task: 1        Priority: HIGH
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MANAGE ORDERS AS A CLOTHES RETAILER, I WANT TO MANAGE CUSTOMER ORDERS EFFICIENTLY SO THAT I CAN FULFILL ORDERS ACCURATELY AND IN A TIMELY MANNER.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BV: 500	CP: 1 Unit
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Acceptance Criteria:
+
+Basic Flow-
+•	As a clothes retailer, I log in to the order management system.
+•	I navigate to the "Manage Orders" section.
+•	I can view a list of all incoming orders, including order details such as customer information, items ordered, and shipping address.
+•	I have the option to process orders by packing items for shipping and updating order status (e.g., pending, shipped, delivered).
+•	I can generate shipping labels and track order shipments.
+•	I can handle order cancellations or modifications requested by customers.
+•	I can manage returns and exchanges, processing refunds or replacements as necessary.
+
+Alternate Flow-
+•	If there are multiple orders to be processed simultaneously, I have the option to prioritize orders based on factors such as shipping deadlines or order value.
+•	I can assign orders to different fulfilment teams or prioritize certain orders for expedited processing.
+
+Exceptional Flow-
+•	If there are technical issues accessing or updating orders, the system displays an error message.
+•	I can retry the operation or contact technical support for assistance.
+•	If an item in an order is out of stock, the system notifies me of the out-of-stock item and prompts me to take appropriate action (e.g., contact the customer, offer a substitute item, refund the unavailable item).
+•	If there are delays in order fulfilment due to external factors (e.g., shipping delays, supplier issues), I can update order status and notify affected customers of the delay.
+•	I can provide alternative solutions or compensation options to mitigate customer dissatisfaction.
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+User Story No: 14        Task: 1        Priority: HIGH
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+CUSTOMER ENGAGEMENT AND MARKETING AS A CLOTHES RETAILER, I WANT TO ENGAGE WITH CUSTOMERS AND PROMOTE MY PRODUCTS EFFECTIVELY SO THAT I CAN INCREASE BRAND AWARENESS AND DRIVE SALES.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BV: 500	CP: 1 Unit
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Acceptance Criteria:
+
+Basic Flow-
+•	As a clothes retailer, I access the marketing and customer engagement tools.
+•	I can segment customers based on demographics, purchase history, and behaviour.
+•	I create targeted marketing campaigns, such as email newsletters, social media posts, and advertisements, to promote new products, sales, or events.
+•	I personalize communication with customers by addressing them by name and recommending products based on their preferences and past purchases.
+•	I track the performance of marketing campaigns, including metrics such as open rates, click-through rates, and conversion rates.
+•	I analyse customer feedback and engagement metrics to refine future marketing strategies and improve customer satisfaction.
+
+Alternate Flow-
+•	If there are specific customer segments I want to target, I can create custom audience groups based on criteria such as location, age, or shopping behavior.
+•	I tailor marketing messages and promotions to resonate with each audience segment.
+
+Exceptional Flow-
+•	If there are technical issues with the marketing platform, I contact technical support to resolve the issue promptly.
+•	In the meantime, I may use alternative communication channels to engage with customers, such as social media or SMS.
+•	If a marketing campaign receives unexpectedly low engagement or conversion rates, I analyse campaign performance data to identify potential issues or areas for improvement.
+•	I adjust campaign messaging, timing, or targeting parameters to optimize performance and achieve better results.
+•	If customer feedback indicates dissatisfaction with marketing communications, I review customer feedback and adjust communication strategies accordingly, ensuring messages are relevant, respectful, and non-intrusive.
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+User Story No: 15        Task: 1        Priority: HIGH
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+WEBSITE AND MOBILE APP MANAGEMENT AS A CLOTHES RETAILER, I WANT TO MAINTAIN AND UPDATE MY WEBSITE AND MOBILE APP SO THAT I CAN PROVIDE A SEAMLESS AND ENGAGING SHOPPING EXPERIENCE FOR CUSTOMERS.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BV: 500	CP: 1 Unit
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Acceptance Criteria:
+
+Basic Flow-
+•	As a clothes retailer, I access the website and mobile app management tools.
+•	I can regularly update product listings with new arrivals, seasonal collections, and special promotions to keep the content fresh and enticing for customers.
+•	I ensure that product images are high-quality and accurately represent the items available for purchase.
+•	I optimize website and app performance for fast loading speeds and smooth navigation across devices, ensuring a positive user experience.
+•	I implement features such as search filters, sorting options, and product recommendations to help customers find what they're looking for quickly and easily.
+•	I maintain an intuitive and user-friendly interface, making it simple for customers to browse products, add items to their cart, and complete purchases.
+•	I provide informative and engaging content, such as product descriptions, styling tips, and customer reviews, to enhance the shopping experience and build trust with customers
+
+Alternate Flow-
+•	If there are specific sections of the website or app that require updates, I prioritize updates based on factors such as customer feedback, sales performance, and marketing priorities.
+•	I collaborate with the design and development teams to implement changes efficiently and effectively.
+
+Exceptional Flow-
+•	If there are technical issues with the website or app, I contact technical support to resolve the issue promptly, minimizing downtime and ensuring a seamless shopping experience for customers.
+•	I communicate with customers about any disruptions or maintenance activities, providing updates and assistance as needed.
+•	If customer feedback indicates usability issues or areas for improvement, I review feedback and conduct usability testing to identify pain points and opportunities for optimization.
+•	I prioritize enhancements based on customer needs and preferences, implementing changes to enhance the overall user experience.
+
+_____________________________________________________________________________________________________________________________________________________________________
+
