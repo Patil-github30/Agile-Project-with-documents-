@@ -1,0 +1,33 @@
+Defination Of Done [DOD]
+
+UI implemented according to the design.
+UI is user friendly.
+UI elements are user friendly and intuitive.
+User can register themselves and log in to the system.
+User can browse through different categories of clothing’s.
+Search functionality is implemented for the users.
+Filter options are also available for the users.
+Users can also view detailed information about each and every clothes which includes image, price, sizes, return policy, exchange policy, description.
+Users can item to the shopping cart.
+Users can proceed to checkout securely.
+User receives the confirmation mail.
+Users can view their order history.
+Users can track their order.
+Database schema is designed and implemented securely.
+APIs are developed for frontend communication.
+User authentication and authorization techniques are implemented.
+
+Produced code for presumed functionalities.
+Assumptions of User Story met
+Project builds without errors 
+Unit tests written and passing
+Project deployed on the test environment identical to production platform 
+Tests on devices/browsers listed in the project assumptions passed 
+Feature ok-ed by UX designer 
+QA performed & issues resolved 
+Feature is tested against acceptance criteria 
+Feature ok-ed by Product Owner
+Refactoring completed 
+Any configuration or build changes documented 
+Documentation updated 
+Peer Code Review performed
